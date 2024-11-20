@@ -1,0 +1,108 @@
+\begin{theindex}
+
+  \item {/home/student/Документы/makin/client/source/main.cpp}, 
+		\hyperpage{26}
+  \item {/home/student/Документы/makin/client/source/modules/exceptions.h}, 
+		\hyperpage{23, 24}
+  \item {/home/student/Документы/makin/client/source/modules/io.h}, 
+		\hyperpage{25, 26}
+  \item {/home/student/Документы/makin/client/source/modules/network.h}, 
+		\hyperpage{21, 22}
+  \item {/home/student/Документы/makin/client/source/modules/ui.h}, 
+		\hyperpage{22, 23}
+
+  \indexspace
+
+  \item {ArgsDecodeException}, \hyperpage{7}
+  \item {auth}
+    \subitem {NetworkManager}, \hyperpage{15}
+  \item {AuthException}, \hyperpage{7}
+    \subitem {AuthException}, \hyperpage{7}
+
+  \indexspace
+
+  \item {BasicClientException}, \hyperpage{8}
+    \subitem {BasicClientException}, \hyperpage{8}
+    \subitem {what}, \hyperpage{9}
+
+  \indexspace
+
+  \item {calc}
+    \subitem {NetworkManager}, \hyperpage{15}
+  \item {conf}
+    \subitem {InputOutputManager}, \hyperpage{12}
+  \item {conn}
+    \subitem {NetworkManager}, \hyperpage{16}
+
+  \indexspace
+
+  \item {DataDecodeException}, \hyperpage{9}
+    \subitem {DataDecodeException}, \hyperpage{9}
+
+  \indexspace
+
+  \item {getAddress}
+    \subitem {NetworkManager}, \hyperpage{16}
+    \subitem {UserInterface}, \hyperpage{18}
+  \item {getConfigFilePath}
+    \subitem {UserInterface}, \hyperpage{18}
+  \item {getInputFilePath}
+    \subitem {UserInterface}, \hyperpage{18}
+  \item {getOutputFilePath}
+    \subitem {UserInterface}, \hyperpage{18}
+  \item {getPort}
+    \subitem {NetworkManager}, \hyperpage{16}
+    \subitem {UserInterface}, \hyperpage{19}
+
+  \indexspace
+
+  \item {InputOutputException}, \hyperpage{10}
+    \subitem {InputOutputException}, \hyperpage{10}
+  \item {InputOutputManager}, \hyperpage{11}
+    \subitem {conf}, \hyperpage{12}
+    \subitem {InputOutputManager}, \hyperpage{11}
+    \subitem {read}, \hyperpage{12}
+    \subitem {write}, \hyperpage{12}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{27}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{27}
+
+  \indexspace
+
+  \item {NetworkException}, \hyperpage{13}
+    \subitem {NetworkException}, \hyperpage{13}
+  \item {NetworkManager}, \hyperpage{14}
+    \subitem {auth}, \hyperpage{15}
+    \subitem {calc}, \hyperpage{15}
+    \subitem {conn}, \hyperpage{16}
+    \subitem {getAddress}, \hyperpage{16}
+    \subitem {getPort}, \hyperpage{16}
+    \subitem {NetworkManager}, \hyperpage{14}
+
+  \indexspace
+
+  \item {read}
+    \subitem {InputOutputManager}, \hyperpage{12}
+
+  \indexspace
+
+  \item {UserInterface}, \hyperpage{17}
+    \subitem {getAddress}, \hyperpage{18}
+    \subitem {getConfigFilePath}, \hyperpage{18}
+    \subitem {getInputFilePath}, \hyperpage{18}
+    \subitem {getOutputFilePath}, \hyperpage{18}
+    \subitem {getPort}, \hyperpage{19}
+    \subitem {UserInterface}, \hyperpage{17}
+
+  \indexspace
+
+  \item {what}
+    \subitem {BasicClientException}, \hyperpage{9}
+  \item {write}
+    \subitem {InputOutputManager}, \hyperpage{12}
+
+\end{theindex}

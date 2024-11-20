@@ -1,0 +1,16 @@
+digraph "/home/student/Документы/makin/client/source"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_7ae29052652698fc4d348157d22c1820 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="client", fontname="Helvetica", fontsize="10", URL="dir_7ae29052652698fc4d348157d22c1820.html"]
+  subgraph clusterdir_8c68b623f7df6c6d61c77ef2205981f0 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_8c68b623f7df6c6d61c77ef2205981f0.html"]
+    dir_8c68b623f7df6c6d61c77ef2205981f0 [shape=plaintext, label="source"];
+  dir_04cd0ed4a58b10f03b25da121cde61cc [shape=box, label="modules", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_04cd0ed4a58b10f03b25da121cde61cc.html"];
+  }
+  }
+  dir_8c68b623f7df6c6d61c77ef2205981f0->dir_04cd0ed4a58b10f03b25da121cde61cc [headlabel="1", labeldistance=1.5 headhref="dir_000004_000003.html"];
+}

@@ -1,0 +1,37 @@
+\hypertarget{network_8h_source}{}\doxysection{network.\+h}
+\label{network_8h_source}\index{/home/student/Документы/makin/client/source/modules/network.h@{/home/student/Документы/makin/client/source/modules/network.h}}
+\mbox{\hyperlink{network_8h}{См. документацию.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef NETWORK\_MANAGER\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define NETWORK\_MANAGER\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <cstdint>}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{classNetworkManager}{NetworkManager}}}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29     \mbox{\hyperlink{classNetworkManager_a730b351e724ecaad7e167f2baa8321cf}{NetworkManager}}(\textcolor{keyword}{const} std::string \&address, uint16\_t port);}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{35     std::string \&\mbox{\hyperlink{classNetworkManager_ae2f80b0ce27aeaac1319208d53545d60}{getAddress}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{41     uint16\_t \&\mbox{\hyperlink{classNetworkManager_aaa83cea0dd364c6b50fe53b47a470b45}{getPort}}();}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{47     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetworkManager_afd4d6919e26a38a4b4aa28b655249aa6}{conn}}();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{55     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetworkManager_ab45985a4f06a98860d6f25911de5d36b}{auth}}(\textcolor{keyword}{const} std::string \&username, \textcolor{keyword}{const} std::string \&password);}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{63     std::vector<int32\_t> \mbox{\hyperlink{classNetworkManager_afd5d2955ff0db596b2c359f4559a74ad}{calc}}(\textcolor{keyword}{const} std::vector<std::vector<int32\_t>> \&data);}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{68     \textcolor{keywordtype}{void} \mbox{\hyperlink{classNetworkManager_a20675a8cc89ecc69aedc8bc03085df69}{close}}();}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70 \textcolor{keyword}{private}:}
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} socket; }
+\DoxyCodeLine{72     std::string address; }
+\DoxyCodeLine{73     uint16\_t port; }
+\DoxyCodeLine{74 \};}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// NETWORK\_MANAGER\_H}}
+
+\end{DoxyCode}

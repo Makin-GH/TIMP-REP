@@ -1,0 +1,134 @@
+\hypertarget{classUserInterface}{}\doxysection{Класс User\+Interface}
+\label{classUserInterface}\index{UserInterface@{UserInterface}}
+
+
+Класс для управления пользовательским интерфейсом.  
+
+
+
+
+{\ttfamily \#include $<$ui.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classUserInterface_af5a272b85b1f81b24245f3ce68e6421a}{User\+Interface}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Конструктор класса \mbox{\hyperlink{classUserInterface}{User\+Interface}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUserInterface_ae588b2ff1711a016dd4c6fc5002c0841}\label{classUserInterface_ae588b2ff1711a016dd4c6fc5002c0841}} 
+{\bfseries $\sim$\+User\+Interface} ()
+\begin{DoxyCompactList}\small\item\em Деструктор класса \mbox{\hyperlink{classUserInterface}{User\+Interface}}. \end{DoxyCompactList}\item 
+std\+::string \& \mbox{\hyperlink{classUserInterface_a5e28894b7a6d1a8687bd2304764e95fb}{get\+Address}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения адреса. \end{DoxyCompactList}\item 
+uint16\+\_\+t \& \mbox{\hyperlink{classUserInterface_ad6da8a9ba5d71ba7ec0cbf8187b27703}{get\+Port}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения порта. \end{DoxyCompactList}\item 
+std\+::string \& \mbox{\hyperlink{classUserInterface_ab6f40fb5cb1574aab5e86c224276ca9a}{get\+Input\+File\+Path}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения пути к входному файлу. \end{DoxyCompactList}\item 
+std\+::string \& \mbox{\hyperlink{classUserInterface_aeefdd5dd51019aeacaa2ca7271822845}{get\+Output\+File\+Path}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения пути к выходному файлу. \end{DoxyCompactList}\item 
+std\+::string \& \mbox{\hyperlink{classUserInterface_a5ae249abc3b97a793b53c0bacb185c74}{get\+Config\+File\+Path}} ()
+\begin{DoxyCompactList}\small\item\em Метод для получения пути к конфигурационному файлу. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classUserInterface_a6d8d6d6b6900823be51259efba78b400}\label{classUserInterface_a6d8d6d6b6900823be51259efba78b400}} 
+void {\bfseries run} ()
+\begin{DoxyCompactList}\small\item\em Метод для запуска интерфейса. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для управления пользовательским интерфейсом. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classUserInterface_af5a272b85b1f81b24245f3ce68e6421a}\label{classUserInterface_af5a272b85b1f81b24245f3ce68e6421a}} 
+\index{UserInterface@{UserInterface}!UserInterface@{UserInterface}}
+\index{UserInterface@{UserInterface}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{UserInterface()}{UserInterface()}}
+{\footnotesize\ttfamily User\+Interface\+::\+User\+Interface (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Конструктор класса \mbox{\hyperlink{classUserInterface}{User\+Interface}}. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em argc} & Количество аргументов командной строки. \\
+\hline
+{\em argv} & Аргументы командной строки. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Исключения}
+{\em \mbox{\hyperlink{classArgsDecodeException}{Args\+Decode\+Exception}}} & Если отсутствуют обязательные параметры или их значения. \\
+\hline
+\end{DoxyExceptions}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classUserInterface_a5e28894b7a6d1a8687bd2304764e95fb}\label{classUserInterface_a5e28894b7a6d1a8687bd2304764e95fb}} 
+\index{UserInterface@{UserInterface}!getAddress@{getAddress}}
+\index{getAddress@{getAddress}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{getAddress()}{getAddress()}}
+{\footnotesize\ttfamily std\+::string \& User\+Interface\+::get\+Address (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для получения адреса. 
+
+\begin{DoxyReturn}{Возвращает}
+Адрес. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUserInterface_a5ae249abc3b97a793b53c0bacb185c74}\label{classUserInterface_a5ae249abc3b97a793b53c0bacb185c74}} 
+\index{UserInterface@{UserInterface}!getConfigFilePath@{getConfigFilePath}}
+\index{getConfigFilePath@{getConfigFilePath}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{getConfigFilePath()}{getConfigFilePath()}}
+{\footnotesize\ttfamily std\+::string \& User\+Interface\+::get\+Config\+File\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для получения пути к конфигурационному файлу. 
+
+\begin{DoxyReturn}{Возвращает}
+Путь к конфигурационному файлу. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUserInterface_ab6f40fb5cb1574aab5e86c224276ca9a}\label{classUserInterface_ab6f40fb5cb1574aab5e86c224276ca9a}} 
+\index{UserInterface@{UserInterface}!getInputFilePath@{getInputFilePath}}
+\index{getInputFilePath@{getInputFilePath}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{getInputFilePath()}{getInputFilePath()}}
+{\footnotesize\ttfamily std\+::string \& User\+Interface\+::get\+Input\+File\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для получения пути к входному файлу. 
+
+\begin{DoxyReturn}{Возвращает}
+Путь к входному файлу. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUserInterface_aeefdd5dd51019aeacaa2ca7271822845}\label{classUserInterface_aeefdd5dd51019aeacaa2ca7271822845}} 
+\index{UserInterface@{UserInterface}!getOutputFilePath@{getOutputFilePath}}
+\index{getOutputFilePath@{getOutputFilePath}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{getOutputFilePath()}{getOutputFilePath()}}
+{\footnotesize\ttfamily std\+::string \& User\+Interface\+::get\+Output\+File\+Path (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для получения пути к выходному файлу. 
+
+\begin{DoxyReturn}{Возвращает}
+Путь к выходному файлу. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classUserInterface_ad6da8a9ba5d71ba7ec0cbf8187b27703}\label{classUserInterface_ad6da8a9ba5d71ba7ec0cbf8187b27703}} 
+\index{UserInterface@{UserInterface}!getPort@{getPort}}
+\index{getPort@{getPort}!UserInterface@{UserInterface}}
+\doxysubsubsection{\texorpdfstring{getPort()}{getPort()}}
+{\footnotesize\ttfamily uint16\+\_\+t \& User\+Interface\+::get\+Port (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Метод для получения порта. 
+
+\begin{DoxyReturn}{Возвращает}
+Порт. 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+/home/student/Документы/makin/client/source/modules/\mbox{\hyperlink{ui_8h}{ui.\+h}}\item 
+/home/student/Документы/makin/client/source/modules/ui.\+cpp\end{DoxyCompactItemize}
